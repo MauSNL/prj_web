@@ -1,0 +1,170 @@
+header{
+	background-color: #ffffff;
+	box-shadow: 0 0.2em 0.2em;
+}
+
+a:hover{
+	color: #36338e;
+}
+
+span:hover{
+	color: #36338e;
+}
+
+.container{
+	margin-right: 1em;
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.logo{
+	max-width: 10em;
+	margin-left: 1em;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+input{
+	border-radius: 1em;
+}
+
+span{
+	font-family: "Nexa Light";
+	color: #02d768;
+	margin: 0.5em;
+	display: flex;
+	justify-content: flex-end;
+}
+
+input[type=search] {
+    background-color: white;
+    background-image: url('images/search.png');
+    background-position: 1em 50%; 
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    margin-right: 0;
+    width: 25%;
+    max-width: 15em;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+    width: 100%;
+    max-width: 30em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.zoeken{
+	font-family: "Nexa Light";
+	margin-right: 0;
+}
+
+.zoeken:hover{
+	color: #36338e;
+}
+
+@media (min-width: 30em){
+	.zoeken{
+		display: none;
+	}
+	section{
+		display: block;
+	}
+}
+
+@media (max-width: 30em){
+	span{
+		display: none;
+	}
+	input[type=search]{
+		top: -5em;
+		position: relative;
+	}
+	input[type=search]:focus{
+		top: 0;
+	}
+}
+
+.filter{
+	margin: auto;
+	margin-top: 0.1em;
+	max-width: 3.3em;
+	background-color: #ffffff
+}
+
+body {
+    background-image: url("images/bg.jpg");
+    background-color: #cccccc;
+    margin: 0;
+}
+
+h1{
+	font-family: "Nexa Bold";
+}
+
+section{
+	text-align: center;
+	width: 20em;
+	height: 5em;
+	margin: auto;
+	margin-top: 1em;
+	background-color: #ffffff;
+	border-radius: 2em;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-contetn: center;
+
+}
+
+p{
+	font-family: "Nexa Light";
+	color: #ffffff;
+	display: block;
+}
+
+.button{
+	background-color: #ffffff;
+	border-radius: 2em;
+	padding: 0.1em;
+	display: flex;
+	justify-content: center;
+	max-width: 15em;
+	margin: auto;
+}
+
+
+a{
+	text-decoration: none;
+	font-family: "Nexa Light";
+	color: #02d768;
+	padding-left: 0.5em;
+}
+
+form{
+	font-family: "Nexa Light";
+	background-color: #ffffff;
+	margin: 1em;
+	list-style-type: none;
+	border-radius: 1em;
+}
+
+fieldset{
+	border: none;
+}
+
+legend{
+	font-family: "Nexa Bold";
+	color: #02d768;
+	list-style-type: none;
+}
+
+label{
+	color: #02d768;
+	display: block;
+}

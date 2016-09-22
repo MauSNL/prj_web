@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-		<header>	
+	<header>	
 		<a href="index.html"> <img class="logo" src="images/logo.png" alt=""></a>	
 		<div class="container">
 			<input type="search" name="zoeken" id="zoeken" />
@@ -16,13 +16,21 @@
 			<a class- href="login.html">Log In</a>
 		</div>
 	</header>
-	
-		<h1>Title</h1>
-		<p>
-			Paragraaf
-		</p>
-		<footer>
-			<p>Auteur <time> 09/09/16 </time></p>
-		</footer>
+
+	<form>
+		<fieldset>
+			<legend>
+				Gegevens
+			</legend>
+			<label> <for="username"> Username </label>
+			<input type="text" name="usernaam" id="Username" />
+			<label> <for="wachtwoord"> Wachtwoord</label>
+			<input type="password" name="wachtwoord" id="wachtwoord" />
+		</fieldset>
+	</form>
+
+	<p>
+		<a class="button" href="aanmelden.html">aanmelden</a>
+	</p>
 </body>
 </html>
