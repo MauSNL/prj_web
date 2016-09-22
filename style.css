@@ -119,7 +119,11 @@ section{
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-contetn: center;
+	opacity: 0.8;
+}
 
+section a{
+	color: #ee336a;
 }
 
 p{
